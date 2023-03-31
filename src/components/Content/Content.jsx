@@ -43,7 +43,7 @@ const Content = (props) => {
         </div>
 
         <button
-          onClick={() => handaloftime()}
+          onClick={() => handaloftime(time)}
           href="#"
           className=" text-2xl font-normal underline text-cyan-600 text-start"
         >

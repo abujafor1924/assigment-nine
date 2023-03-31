@@ -1,18 +1,17 @@
-import React from "react";
-import { useState } from "react";
+import React, { useState } from "react";
 
 const Sitever = (props) => {
-  console.log(props.addTitle);
-  //   const title = [];
-  //   for (const product of props.count) {
-  //     title.push(product.title);
-  //   }
+  const title = [];
+  props.count.find((pd) => {
+    title.push(pd.title);
+  });
+
   return (
     <div className="sticky top-1">
       <div>
         <div>
           <h1 className="p-2 border-lime-500 bg-red-200 mt-4 font-bold text-2xl text-left">
-            Spent time on read :
+            Spent time on read :{props.time}
           </h1>
         </div>
         <div>
@@ -20,7 +19,7 @@ const Sitever = (props) => {
             Book Mark : {props.count.length}
           </h1>
           <div>
-            <h1 className="p-2 bg-red-200 m-2">{props.addTitle}</h1>
+            <h1 className="p-2 bg-red-200 m-2">{title}</h1>
           </div>
         </div>
       </div>
