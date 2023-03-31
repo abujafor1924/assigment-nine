@@ -5,6 +5,7 @@ import { faBookmark } from "@fortawesome/free-solid-svg-icons";
 const Content = (props) => {
   const { picture, title, name, time, date, id } = props.product;
   const handalblog = props.handalBlog;
+  const handaloftime = props.handaloftime;
 
   return (
     <div>
@@ -27,7 +28,7 @@ const Content = (props) => {
             </div>
           </div>
           <div className="flex mt-3">
-            <p className="m-2 font-medium">{time}</p>
+            <p className="m-2 font-medium">{time} min read</p>
             <button onClick={() => handalblog(props.product)}>
               <FontAwesomeIcon icon={faBookmark} />
             </button>
@@ -41,12 +42,13 @@ const Content = (props) => {
           <p>#programming</p>
         </div>
 
-        <a
+        <button
+          onClick={() => handaloftime()}
           href="#"
           className=" text-2xl font-normal underline text-cyan-600 text-start"
         >
           Mark as read
-        </a>
+        </button>
       </div>
     </div>
   );
