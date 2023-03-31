@@ -23,17 +23,6 @@ function App() {
     }
   };
   const handleBlog = (product) => {
-    // console.log(product.title);
-
-    // const previousTitle = localStorage.getItem("title");
-    // if (previousTitle) {
-    //   const previous = previousTitle + product.title;
-    //   localStorage.setItem("title", previous);
-    //   setAddtitle(previous);
-    // } else {
-    //   localStorage.setItem("title", product.title);
-    //   setAddtitle(product.title);
-    // }
     const newAded = [...count, product];
     setCount(newAded);
   };
@@ -41,11 +30,11 @@ function App() {
   return (
     <div className="App ">
       <Header></Header>
-      <div className="flex justify-between">
-        <div className="grid w-9/12">
+      <div className="md:flex md:justify-between">
+        <div className="grid md:w-9/12">
           <Blog handleBlog={handleBlog} handaloftime={handaloftime}></Blog>
         </div>
-        <div className="w-3/12 ">
+        <div className="md:w-3/12 ">
           <Sitever count={count} addTitle={addTitle} time={time}></Sitever>
         </div>
       </div>

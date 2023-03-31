@@ -18,8 +18,8 @@ const Sitever = (props) => {
           <h1 className="text-2xl font-bold text-lime-600">
             Book Mark : {props.count.length}
           </h1>
-          <div>
-            <h1 className="p-2 bg-red-200 m-2">{title}</h1>
+          <div className="p-2 bg-red-200 m-2">
+            <h1> {title}</h1>
           </div>
         </div>
       </div>

@@ -15,7 +15,7 @@
     "date": "Mar 07 (4 Days ago)",
     "time": 10,
     "author": "./../src/img/craig-mckay-jmURdhtm7Ng-unsplash.jpg",
-    "title": "How to get your first job as a self-taught programmer"
+    "title": "How do you declare an array in JavaScript?"
   },
   {
     "id": "64259f2f3229ac9a6fb92f0f",
@@ -32,24 +32,6 @@
     "name": "Mina Mostofa",
     "date": "Mar 13 (4 Days ago)",
     "time": 30,
-    "author": "./../src/img/craig-mckay-jmURdhtm7Ng-unsplash.jpg",
-    "title": "How to get your first job as a self-taught programmer"
-  },
-  {
-    "id": "64259f2f30e6d33cc7ffd9e9",
-    "picture": "./../src/img/johan-mouchet-Z95viY3WaZs-unsplash (1).jpg",
-    "name": "Skinner Farrell",
-    "date": "Mar 14 (4 Days ago)",
-    "time": 40,
-    "author": "./../src/img/craig-mckay-jmURdhtm7Ng-unsplash.jpg",
-    "title": "How to get your first job as a self-taught programmer"
-  },
-  {
-    "id": "64259f2fbc6572460345255b",
-    "picture": "./../src/img/johan-mouchet-Z95viY3WaZs-unsplash (1).jpg",
-    "name": "Skinner Farrell",
-    "date": "Mar 10 (4 Days ago)",
-    "time": 32,
     "author": "./../src/img/craig-mckay-jmURdhtm7Ng-unsplash.jpg",
     "title": "How to get your first job as a self-taught programmer"
   }
