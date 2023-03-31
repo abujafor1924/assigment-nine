@@ -1,38 +1,38 @@
 [
   {
     "id": "64259f2f05f6c374923ca0a9",
-    "picture": "./../src/img/manuel-venturini-TBmHA1LOuZU-unsplash.jpg",
+    "picture": "./../src/img/img-1.jpg",
     "name": "Skinner Farrell",
     "date": "Mar 16 (4 Days ago)",
     "time": 5,
-    "author": "./../src/img/craig-mckay-jmURdhtm7Ng-unsplash.jpg",
+    "author": "./../src/img/p-1.jpg",
     "title": "How to get your first job as a self-taught programmer"
   },
   {
     "id": "64259f2fe3656857a110f878",
-    "picture": "./../src/img/johan-mouchet-Z95viY3WaZs-unsplash (1).jpg",
+    "picture": "./../src/img/img-2.jpg",
     "name": "Skinner Farrell",
     "date": "Mar 07 (4 Days ago)",
     "time": 10,
-    "author": "./../src/img/craig-mckay-jmURdhtm7Ng-unsplash.jpg",
+    "author": "./../src/img/p-2.jpg",
     "title": "How do you declare an array in JavaScript?"
   },
   {
     "id": "64259f2f3229ac9a6fb92f0f",
-    "picture": "./../src/img/manuel-venturini-TBmHA1LOuZU-unsplash.jpg",
+    "picture": "./../src/img/img-3.jpg",
     "name": "Mrs. Setara",
     "date": "Mar 23 (5 Days ago)",
     "time": 20,
-    "author": "./../src/img/craig-mckay-jmURdhtm7Ng-unsplash.jpg",
-    "title": "How to get your first job as a self-taught programmer"
+    "author": "./../src/img/p-3.jpg",
+    "title": "What language is JavaScript?"
   },
   {
     "id": "64259f2fefcca02e5b86e83c",
-    "picture": "./../src/img/johan-mouchet-Z95viY3WaZs-unsplash (1).jpg",
+    "picture": "./../src/img/img-4.jpg",
     "name": "Mina Mostofa",
     "date": "Mar 13 (4 Days ago)",
     "time": 30,
-    "author": "./../src/img/craig-mckay-jmURdhtm7Ng-unsplash.jpg",
-    "title": "How to get your first job as a self-taught programmer"
+    "author": "./../src/img/p-4.jpg",
+    "title": "Is JavaScript the same as C++?"
   }
 ]

@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBookmark } from "@fortawesome/free-solid-svg-icons";
 
 const Content = (props) => {
-  const { picture, title, name, time, date, id } = props.product;
+  const { picture, title, name, time, date, author } = props.product;
   const handalblog = props.handalBlog;
   const handaloftime = props.handaloftime;
 
@@ -16,11 +16,7 @@ const Content = (props) => {
         <div className="flex justify-between">
           <div className="flex mt-3">
             <div>
-              <img
-                className="w-8 h-8 rounded-full mt-4"
-                src="../../../src/img/craig-mckay-jmURdhtm7Ng-unsplash.jpg"
-                alt=""
-              />
+              <img className="w-8 h-8 rounded-full mt-4" src={author} alt="" />
             </div>
             <div className="ms-0 justify-start ">
               <h2 className="me-5 font-bold text-2xl">{name}</h2>
