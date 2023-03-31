@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from "react";
 import Content from "../Content/Content";
 
-const Blog = () => {
+const Blog = (props) => {
+  const handalBlog = props.handleBlog;
+
   const [blog, setBlog] = useState([]);
   useEffect(() => {
     fetch("data.json")
@@ -11,7 +13,7 @@ const Blog = () => {
   return (
     <div>
       {blog.map((product) => (
-        <Content product={product}></Content>
+        <Content product={product} handalBlog={handalBlog}></Content>
       ))}
     </div>
   );

@@ -1,8 +1,11 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBookmark } from "@fortawesome/free-solid-svg-icons";
 
 const Content = (props) => {
-  const { picture, title, name, time } = props.product;
-  // console.log(props.product);
+  const { picture, title, name, time, date, id } = props.product;
+  const handalblog = props.handalBlog;
+
   return (
     <div>
       <div className="card w-full bg-base-100 shadow-xl">
@@ -20,12 +23,14 @@ const Content = (props) => {
             </div>
             <div className="ms-0 justify-start ">
               <h2 className="me-5 font-bold text-2xl">{name}</h2>
-              <p className="ms-2">Mar 14 (4 Days ago)</p>
+              <p className="ms-2">{date}</p>
             </div>
           </div>
           <div className="flex mt-3">
             <p className="m-2 font-medium">{time}</p>
-            <div>btn</div>
+            <button onClick={() => handalblog(props.product)}>
+              <FontAwesomeIcon icon={faBookmark} />
+            </button>
           </div>
         </div>
         <div>
