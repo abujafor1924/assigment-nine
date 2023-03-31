@@ -14,7 +14,7 @@ function App() {
 
     const previousTime = JSON.parse(localStorage.getItem("time"));
     if (previousTime) {
-      const sum = time + previousTime;
+      const sum = previousTime + time;
       localStorage.setItem("time", sum);
       setTimes(sum);
     } else {

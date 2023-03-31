@@ -30,8 +30,8 @@ const Content = (props) => {
             </button>
           </div>
         </div>
-        <div>
-          <h1 className="m-4 font-bold text-2xl text-left ms-0">{title}</h1>
+        <div className="m-4 font-bold text-2xl text-left ms-0">
+          <h1>{title}</h1>
         </div>
         <div className="flex text-2xl font-normal">
           <p className="me-2">#beginners</p>

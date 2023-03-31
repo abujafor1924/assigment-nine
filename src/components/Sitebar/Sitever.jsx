@@ -1,11 +1,6 @@
 import React, { useState } from "react";
 
 const Sitever = (props) => {
-  const title = [];
-  props.count.find((pd) => {
-    title.push(pd.title);
-  });
-
   return (
     <div className="sticky top-1">
       <div>
@@ -19,7 +14,13 @@ const Sitever = (props) => {
             Book Mark : {props.count.length}
           </h1>
           <div className="p-2 bg-red-200 m-2">
-            <h1> {title}</h1>
+            <div>
+              {props.count.map((pd) => (
+                <div key={pd.id} className="m-4 bg-slate-50 p-2">
+                  <h2>{pd.title}</h2>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>
