@@ -1,38 +1,38 @@
 [
   {
     "id": "64259f2f05f6c374923ca0a9",
-    "picture": "./../src/img/img-1.jpg",
+    "picture": "https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80",
     "name": "Skinner Farrell",
     "date": "Mar 16 (4 Days ago)",
     "time": 5,
-    "author": "./../src/img/p-1.jpg",
+    "author": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80",
     "title": "How to get your first job as a self-taught programmer"
   },
   {
     "id": "64259f2fe3656857a110f878",
-    "picture": "./../src/img/img-2.jpg",
+    "picture": "https://media.istockphoto.com/id/1188009832/photo/wood-software-developer-or-programmer-office-desk-table-with-laptop-with-the-software-code-on.jpg?s=612x612&w=is&k=20&c=aH35WCf1baNJKAxJn1G7h29adM6vu913N-mtwPOhYvw=",
     "name": "Skinner Farrell",
     "date": "Mar 07 (4 Days ago)",
     "time": 10,
-    "author": "./../src/img/p-2.jpg",
+    "author": "https://images.unsplash.com/photo-1491349174775-aaafddd81942?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80",
     "title": "How do you declare an array in JavaScript?"
   },
   {
     "id": "64259f2f3229ac9a6fb92f0f",
-    "picture": "./../src/img/img-3.jpg",
+    "picture": "https://media.istockphoto.com/id/961634296/photo/top-view-desk-of-work-table-in-office-with-laptop-computer-notebook-calculator-and-a-cup-of.jpg?s=1024x1024&w=is&k=20&c=Tj0AEi4zfQ2_JUWW3_y6ZCdxSDM-8eHKAewXclu70w0=",
     "name": "Mrs. Setara",
     "date": "Mar 23 (5 Days ago)",
     "time": 20,
-    "author": "./../src/img/p-3.jpg",
+    "author": "https://images.unsplash.com/photo-1500048993953-d23a436266cf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80",
     "title": "What language is JavaScript?"
   },
   {
     "id": "64259f2fefcca02e5b86e83c",
-    "picture": "./../src/img/img-4.jpg",
+    "picture": "https://images.unsplash.com/photo-1587620931276-d97f425f62b9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80",
     "name": "Mina Mostofa",
     "date": "Mar 13 (4 Days ago)",
     "time": 30,
-    "author": "./../src/img/p-4.jpg",
+    "author": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
     "title": "Is JavaScript the same as C++?"
   }
 ]

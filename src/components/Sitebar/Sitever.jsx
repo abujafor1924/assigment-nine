@@ -5,8 +5,8 @@ const Sitever = (props) => {
     <div className="sticky top-1">
       <div>
         <div>
-          <h1 className="p-2 border-lime-500 bg-red-200 mt-4 font-bold text-2xl text-left">
-            Spent time on read :{props.time}
+          <h1 className="p-2 border-lime-500 bg-red-200 mt-4 font-bold text-1xl text-left">
+            Spent time on read : {props.time} min
           </h1>
         </div>
         <div>

@@ -3,15 +3,19 @@ import "./App.css";
 import Blog from "./components/Blog/Blog";
 import Header from "./components/Header/Header";
 import Sitever from "./components/Sitebar/Sitever";
+import QOne from "./components/QAns/QOne";
+import QTow from "./components/QAns/QTow";
+import QThree from "./components/QAns/QThree";
+import QFour from "./components/QAns/QFour";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   const [count, setCount] = useState([]);
   const [addTitle, setAddtitle] = useState("");
-  const [time, setTimes] = useState([]);
+  const [time, setTimes] = useState(0);
 
   const handaloftime = (time) => {
-    // console.log(time);
-
     const previousTime = JSON.parse(localStorage.getItem("time"));
     if (previousTime) {
       const sum = previousTime + time;
@@ -23,6 +27,15 @@ function App() {
     }
   };
   const handleBlog = (product) => {
+    // console.log(product);
+    if (product !== product.id) {
+      toast.success(`"${product.title}" added to bookmarks!`);
+    } else if (product === product.id) {
+      // add the product to the bookmarks
+      toast(`"${product.title}" is already bookmarked!`);
+    }
+
+    // setup Book mark
     const newAded = [...count, product];
     setCount(newAded);
   };
@@ -35,35 +48,15 @@ function App() {
           <Blog handleBlog={handleBlog} handaloftime={handaloftime}></Blog>
         </div>
         <div className="md:w-3/12 ">
+          <ToastContainer />
           <Sitever count={count} addTitle={addTitle} time={time}></Sitever>
         </div>
       </div>
       <div className="m-4">
-        <div className="bg-red-200 m-4">
-          <h1>What is difference Props and State? </h1>
-          <p>
-            props is a pass peramiter and State set peramiter this is pass
-            component peramiter.
-          </p>
-        </div>
-        <div className="bg-red-200 m-4">
-          <h1>how usestate works react? </h1>
-          <p>
-            main purpose to change an element status and React to know for need
-            to be rerendered.
-          </p>
-        </div>
-        <div className="bg-red-200 m-4">
-          <h1>how useeffect works in react? </h1>
-          <p>
-            this is use component rerender and rune one time. useEffect is
-            conditionly changed.
-          </p>
-        </div>
-        <div className="bg-red-200 m-4">
-          <h1>how does react work?</h1>
-          <p>React divided separate component and work commonly in a ui.</p>
-        </div>
+        <QOne></QOne>
+        <QTow></QTow>
+        <QThree></QThree>
+        <QFour></QFour>
       </div>
     </div>
   );
