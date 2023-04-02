@@ -26,13 +26,21 @@ function App() {
       setTimes(time);
     }
   };
+  const [countBlog, setCoundBlog] = useState([]);
   const handleBlog = (product) => {
     // console.log(product);
-    if (product !== product.id) {
-      toast.success(`"${product.title}" added to bookmarks!`);
-    } else if (product === product.id) {
+    if (product) {
+      if (countBlog.includes(product)) {
+        toast(`"${product.title}" is already bookmarked!`);
+      } else {
+        const newBlog = [...countBlog, product];
+        setCoundBlog(newBlog);
+        toast.success(`"${product.title}" added to bookmarks!`);
+      }
+    } else {
       // add the product to the bookmarks
-      toast(`"${product.title}" is already bookmarked!`);
+
+      setCoundBlog([product]);
     }
 
     // setup Book mark
